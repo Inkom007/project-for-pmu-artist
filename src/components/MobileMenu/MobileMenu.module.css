@@ -1,0 +1,21 @@
+.mobileMenu {
+  position: relative;
+}
+
+.container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.container.open {
+  display: block;
+  max-height: 500px;
+}

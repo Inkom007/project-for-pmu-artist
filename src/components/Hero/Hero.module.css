@@ -1,0 +1,18 @@
+.container {
+  background-image: url("../../assets/IMG_3928.jpg");
+  padding-top: 80px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 1);
+  background-position: left;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.hero {
+  padding: 20px;
+  border-radius: 10px;
+}
