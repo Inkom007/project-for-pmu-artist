@@ -4,11 +4,11 @@ import AboutMeImg from "../../assets/AboutMeImg.jpg";
 const AboutMe = () => {
   return (
     <section className={s.container}>
+      <h2 className={s.title}>About me</h2>
       <div className={s.aboutMe}>
         <img className={s.image} src={AboutMeImg} alt="my-photo" />
 
         <div className={s.textContainer}>
-          <h2 className={s.title}>About me</h2>
           <p className={s.text}>
             Hello! I'm Yuliia, a professional PMU artist with over 4 years of
             experience in the beauty industry. I specialize in creating natural,

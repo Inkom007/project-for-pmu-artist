@@ -3,7 +3,7 @@ import s from "./Header.module.css";
 const Header = ({ handleOpenModal }) => {
   return (
     <header className={s.header}>
-      <div className={s.container}>
+      <div className={s.containerHeader}>
         <a className={s.logo}>
           Yuliko.<span className={s.logoAccent}>pmu</span>
         </a>
