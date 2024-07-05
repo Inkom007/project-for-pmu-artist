@@ -1,20 +1,14 @@
 import s from "./Header.module.css";
+import { RxHamburgerMenu } from "react-icons/rx";
 
-const Header = ({ handleOpenModal }) => {
+const Header = () => {
   return (
     <header className={s.header}>
       <div className={s.containerHeader}>
         <a className={s.logo}>
           Yuliko.<span className={s.logoAccent}>pmu</span>
         </a>
-
         <nav className={s.navigation}>
-          <button onClick={handleOpenModal} className={s.openMenuBtn}>
-            <span className={s.burgerLine}></span>
-            <span className={s.burgerLine}></span>
-            <span className={s.burgerLine}></span>
-          </button>
-
           <ul className={s.list}>
             <li>
               <a className={s.link}>About me</a>
@@ -33,6 +27,9 @@ const Header = ({ handleOpenModal }) => {
             </li>
           </ul>
         </nav>
+        <button className={s.openMenuBtn}>
+          <RxHamburgerMenu size={25} color="#7c252e" />
+        </button>
       </div>
     </header>
   );
