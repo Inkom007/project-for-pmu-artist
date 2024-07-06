@@ -14,12 +14,6 @@ const Header = () => {
               <a className={s.link}>About me</a>
             </li>
             <li>
-              <a className={s.link}>Services</a>
-            </li>
-            <li>
-              <a className={s.link}>Pricing</a>
-            </li>
-            <li>
               <a className={s.link}>Portfolio</a>
             </li>
             <li>

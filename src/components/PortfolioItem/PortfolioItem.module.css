@@ -1,0 +1,12 @@
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1120px) {
+  .image {
+    width: 280px;
+    height: 280px;
+  }
+}
