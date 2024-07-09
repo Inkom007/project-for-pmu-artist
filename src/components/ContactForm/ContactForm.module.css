@@ -24,10 +24,11 @@
   gap: 20px;
 }
 .inputName {
+  font-size: 12px;
   font-family: "Didact Gothic";
   border-bottom: 0.5px black solid;
   background-color: #fff4f5;
-  width: 210px;
+  width: 200px;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -35,10 +36,11 @@
 }
 
 .inputEmail {
+  font-size: 12px;
   font-family: "Didact Gothic";
   background-color: #fff4f5;
   border-bottom: 0.5px black solid;
-  width: 210px;
+  width: 200px;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -46,6 +48,7 @@
 }
 
 .textarea {
+  font-size: 12px;
   font-family: "Didact Gothic";
   border-bottom: 0.5px black solid;
   background-color: #fff4f5;
@@ -75,6 +78,10 @@
 
   .title {
     font-size: 26px;
+  }
+
+  .form {
+    align-items: last baseline;
   }
 }
 
