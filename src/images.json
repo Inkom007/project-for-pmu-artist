@@ -1,8 +1,8 @@
 [
-  { "src": "./assets/img1.jpg", "alt": "Image 1" },
+  { "src": "/src/assets/img1.jpg", "alt": "Image 1" },
   { "src": "./assets/IMG_3958 (1).jpg", "alt": "Image 2" },
-  { "src": "./assets/IMG_3959 (1).jpg", "alt": "Image 3" },
-  { "src": "./assets/IMG_3960 (1).jpg", "alt": "Image 4" },
+  { "src": "../src/assets/IMG_3959 (1).jpg", "alt": "Image 3" },
+  { "src": "./assets/IMG_3961 (1).jpg", "alt": "Image 4" },
   { "src": "./assets/IMG_3961 (1).jpg", "alt": "Image 5" },
   { "src": "./assets/IMG_3962 (1).jpg", "alt": "Image 6" },
   { "src": "./assets/IMG_3964 (1).jpg", "alt": "Image 7" },
