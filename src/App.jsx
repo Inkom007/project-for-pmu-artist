@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Portfolio from "./components/Portfolio/Portfolio";
 import images from "./images.json";
 import { useState } from "react";
-import Contacts from "./components/Contacts/Contacts";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 const App = () => {
   const [visible, setVisible] = useState(3);
@@ -21,7 +21,7 @@ const App = () => {
       <Hero />
       <AboutMe />
       <Portfolio images={images} visible={visible} loadMore={loadMore} />
-      <Contacts />
+      <ContactForm />
     </>
   );
 };

@@ -1,0 +1,91 @@
+.container {
+  background-color: #fff4f5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Oswald;
+  color: #7c252e;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputName {
+  font-family: "Didact Gothic";
+  border-bottom: 0.5px black solid;
+  background-color: #fff4f5;
+  width: 210px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #7c252e;
+}
+
+.inputEmail {
+  font-family: "Didact Gothic";
+  background-color: #fff4f5;
+  border-bottom: 0.5px black solid;
+  width: 210px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #7c252e;
+}
+
+.textarea {
+  font-family: "Didact Gothic";
+  border-bottom: 0.5px black solid;
+  background-color: #fff4f5;
+  width: 250px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #7c252e;
+}
+
+.button {
+  width: 70px;
+  padding: 10px;
+  background-color: #7c252e;
+  border: none;
+  color: #fff4f5;
+  font-family: "Didact Gothic";
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}

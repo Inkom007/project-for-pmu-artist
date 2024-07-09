@@ -1,8 +1,9 @@
 .container {
   padding-top: 80px;
+  padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #fff4f5;
+  background-color: #f7dddf;
 }
 
 .gallery {
@@ -11,6 +12,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -30,7 +32,7 @@
   display: block;
   margin: auto;
   border: none;
-  background-color: #fff4f5;
+  background-color: #f7dddf;
   color: #7c252e;
   font-family: Oswald;
   font-size: 14px;
@@ -40,6 +42,7 @@
 @media screen and (min-width: 768px) {
   .container {
     padding-top: 100px;
+    padding-bottom: 60px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -53,15 +56,25 @@
   .title {
     font-size: 26px;
   }
+
+  .button {
+    padding: 20px;
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1120px) {
   .container {
     padding-top: 120px;
+    padding-bottom: 60px;
     padding-left: 40px;
     padding-right: 40px;
   }
   .title {
     font-size: 28px;
+  }
+
+  .button {
+    font-size: 18px;
   }
 }
