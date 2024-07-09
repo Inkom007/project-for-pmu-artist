@@ -20,7 +20,13 @@ const App = () => {
       <MobileMenu />
       <Hero />
       <AboutMe />
-      <Portfolio images={images} visible={visible} loadMore={loadMore} />
+      <Portfolio
+        src={images.src}
+        alt={images.alt}
+        images={images}
+        visible={visible}
+        loadMore={loadMore}
+      />
       <ContactForm />
     </>
   );
