@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import images from "./images.json";
 import { useState } from "react";
 import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [visible, setVisible] = useState(3);
@@ -22,6 +23,7 @@ const App = () => {
       <AboutMe />
       <Portfolio images={images} visible={visible} loadMore={loadMore} />
       <ContactForm />
+      <Footer />
     </>
   );
 };

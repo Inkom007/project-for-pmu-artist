@@ -23,43 +23,39 @@
   flex-direction: column;
   gap: 20px;
 }
-.inputName {
+
+.label {
+  display: flex;
+  flex-direction: column;
   font-size: 12px;
+  color: #7c252e;
   font-family: "Didact Gothic";
-  border-bottom: 0.5px black solid;
+}
+
+.inputName {
+  height: 25px;
+  border: 0.5px black solid;
   background-color: #fff4f5;
   width: 200px;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  color: #7c252e;
 }
 
 .inputEmail {
-  font-size: 12px;
-  font-family: "Didact Gothic";
+  height: 25px;
+
   background-color: #fff4f5;
-  border-bottom: 0.5px black solid;
+  border: 0.5px black solid;
   width: 200px;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  color: #7c252e;
 }
 
 .textarea {
-  font-size: 12px;
-  font-family: "Didact Gothic";
-  border-bottom: 0.5px black solid;
+  height: 45px;
+  border: 0.5px black solid;
   background-color: #fff4f5;
-  width: 250px;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  color: #7c252e;
+  width: 200px;
 }
 
 .button {
+  border-radius: 4px;
   width: 70px;
   padding: 10px;
   background-color: #7c252e;
