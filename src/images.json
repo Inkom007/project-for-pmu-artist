@@ -1,5 +1,5 @@
 [
-  { "src": "/public/assets/img1.jpg", "alt": "Image 1" },
+  { "src": "/public/images/assets/img1.jpg", "alt": "Image 1" },
   { "src": "/public/assets/IMG_3958 (1).jpg", "alt": "Image 2" },
   { "src": "/src/assets/IMG_3959 (1).jpg", "alt": "Image 3" },
   { "src": "/src/assets/IMG_3961 (1).jpg", "alt": "Image 4" },
