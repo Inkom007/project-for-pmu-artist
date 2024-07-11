@@ -16,17 +16,16 @@
 .logo {
   padding: 10px 0;
   color: #c3646e;
-  font-family: Oswald;
+  font-family: "Italianno", cursive;
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 26px;
   line-height: 1.17em;
   letter-spacing: 0.06em;
 }
 
 .logoAccent {
   color: #7c252e;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -59,11 +58,11 @@
   }
 
   .logo {
-    font-size: 26px;
+    font-size: 36px;
   }
 
   .logoAccent {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .openMenuBtn {
@@ -80,8 +79,8 @@
 
   .link {
     color: #7c252e;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
+    font-family: "Italianno", cursive;
+    font-size: 30px;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.5px;
