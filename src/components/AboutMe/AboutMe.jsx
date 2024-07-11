@@ -1,9 +1,9 @@
 import s from "./AboutMe.module.css";
-import AboutMeImg from "/public/images/assets/AboutMeImg.jpg";
+import AboutMeImg from "/assets/AboutMeImg.jpg";
 
 const AboutMe = () => {
   return (
-    <section className={s.container}>
+    <section id="AboutMe" className={s.container}>
       <h2 className={s.title}>About me</h2>
       <div className={s.aboutMe}>
         <img className={s.image} src={AboutMeImg} alt="my-photo" />

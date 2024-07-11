@@ -2,7 +2,7 @@ import s from "./ContactForm.module.css";
 
 const ContactForm = ({ name, email, message }) => {
   return (
-    <div className={s.container}>
+    <div id="ContactForm" className={s.container}>
       <h2 className={s.title}>Get in touch</h2>
       <form className={s.form}>
         <label className={s.label}>
@@ -18,14 +18,14 @@ const ContactForm = ({ name, email, message }) => {
             value={email}
           />
         </label>
-        <labe className={s.label} l>
+        <label className={s.label}>
           Message
           <textarea
             className={s.textarea}
             id="message"
             value={message}
           ></textarea>
-        </labe>
+        </label>
         <button className={s.button} type="submit">
           Submit
         </button>

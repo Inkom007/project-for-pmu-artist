@@ -9,6 +9,12 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const toggleModal = () => {
+    setModalIsOpen(!modalIsOpen);
+  };
+
   const [visible, setVisible] = useState(3);
 
   const loadMore = () => {
@@ -17,8 +23,7 @@ const App = () => {
 
   return (
     <>
-      <Header />
-      <MobileMenu />
+      <Header toggleModal={toggleModal} modalIsOpen={modalIsOpen} />
       <Hero />
       <AboutMe />
       <Portfolio images={images} visible={visible} loadMore={loadMore} />

@@ -1,23 +1,28 @@
 import s from "./MobileMenu.module.css";
-const MobileMenu = ({ isOpen }) => {
+import { IoCloseOutline } from "react-icons/io5";
+
+const MobileMenu = ({ closeModal }) => {
   return (
-    <div className={s.mobileMenu}>
+    <div onClick={closeModal} className={s.mobileMenu}>
       <div className={s.container}>
+        <button onClick={closeModal} className={s.closeBtn}>
+          <IoCloseOutline size={20} color=" #fff4f5" />
+        </button>
         <ul className={s.list}>
           <li>
-            <a className={s.link}>About me</a>
+            <a href="#AboutMe" className={s.link}>
+              About me
+            </a>
           </li>
           <li>
-            <a className={s.link}>Services</a>
+            <a href="#Portfolio" className={s.link}>
+              Portfolio
+            </a>
           </li>
           <li>
-            <a className={s.link}>Pricing</a>
-          </li>
-          <li>
-            <a className={s.link}>Portfolio</a>
-          </li>
-          <li>
-            <a className={s.link}>Contacts</a>
+            <a href="#ContactForm" className={s.link}>
+              Contact Form
+            </a>
           </li>
         </ul>
       </div>

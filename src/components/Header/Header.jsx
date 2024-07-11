@@ -1,7 +1,8 @@
 import s from "./Header.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
-const Header = () => {
+const Header = ({ toggleModal, modalIsOpen }) => {
   return (
     <header className={s.header}>
       <div className={s.containerHeader}>
@@ -11,19 +12,26 @@ const Header = () => {
         <nav className={s.navigation}>
           <ul className={s.list}>
             <li>
-              <a className={s.link}>About me</a>
+              <a href="#AboutMe" className={s.link}>
+                About me
+              </a>
             </li>
             <li>
-              <a className={s.link}>Portfolio</a>
+              <a href="#Portfolio" className={s.link}>
+                Portfolio
+              </a>
             </li>
             <li>
-              <a className={s.link}>Contacts</a>
+              <a href="#ContactForm" className={s.link}>
+                Contact Form
+              </a>
             </li>
           </ul>
         </nav>
-        <button className={s.openMenuBtn}>
+        <button onClick={toggleModal} className={s.openMenuBtn}>
           <RxHamburgerMenu size={25} color="#7c252e" />
         </button>
+        {modalIsOpen && <MobileMenu closeModal={toggleModal} />}
       </div>
     </header>
   );

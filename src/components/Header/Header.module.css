@@ -16,7 +16,6 @@
 .logo {
   padding: 10px 0;
   color: #c3646e;
-
   font-family: Oswald;
   text-transform: uppercase;
   font-size: 20px;
@@ -37,6 +36,10 @@
 }
 .list {
   display: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .openMenuBtn {

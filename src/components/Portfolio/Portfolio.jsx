@@ -3,7 +3,7 @@ import PortfolioItem from "../PortfolioItem/PortfolioItem";
 
 const Portfolio = ({ images, visible, loadMore }) => {
   return (
-    <div className={s.container}>
+    <div id="Portfolio" className={s.container}>
       <h2 className={s.title}>My portfolio</h2>
       <div className={s.gallery}>
         {images.slice(0, visible).map((image, index) => (
