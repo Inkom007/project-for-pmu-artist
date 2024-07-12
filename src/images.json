@@ -1,16 +1,15 @@
 [
-  { "src": "/assets/Untitled design.jpg", "alt": "Image 1" },
-  { "src": "/assets/Untitled design copy.jpg", "alt": "Image 2" },
-  { "src": "/assets/Untitled design copy 2.jpg", "alt": "Image 3" },
-  { "src": "/assets/IMG_3961 (1).jpg", "alt": "Image 4" },
-  { "src": "/assets/IMG_3961 (1).jpg", "alt": "Image 5" },
-  { "src": "/assets/IMG_3962 (1).jpg", "alt": "Image 6" },
-  { "src": "/assets/IMG_3964 (1).jpg", "alt": "Image 7" },
-  { "src": "/assets/IMG_3965 (1).jpg", "alt": "Image 8" },
-  { "src": "/assets/IMG_3966 (1).jpg", "alt": "Image 9" },
-  { "src": "/assets/IMG_3967 (1).jpg", "alt": "Image 10" },
-  { "src": "/assets/IMG_3968 (1).jpg", "alt": "Image 11" },
-  { "src": "/assets/IMG_3969 (1).jpg", "alt": "Image 12" },
-  { "src": "/assets/IMG_3970 (1).jpg", "alt": "Image 13" },
-  { "src": "/assets/IMG_3972 (1).jpg", "alt": "Image 14" }
+  { "src": "/assets/image1.jpg", "alt": "Image 1" },
+  { "src": "/assets/image2.jpg", "alt": "Image 2" },
+  { "src": "/assets/image3.jpg", "alt": "Image 3" },
+
+  { "src": "/assets/image5.jpg", "alt": "Image 5" },
+  { "src": "/assets/image6.jpg", "alt": "Image 6" },
+  { "src": "/assets/image7.jpg", "alt": "Image 7" },
+  { "src": "/assets/image8.jpg", "alt": "Image 8" },
+  { "src": "/assets/image9.jpg", "alt": "Image 9" },
+  { "src": "/assets/image10.jpg", "alt": "Image 10" },
+  { "src": "/assets/image11.jpg", "alt": "Image 11" },
+  { "src": "/assets/image12.jpg", "alt": "Image 12" },
+  { "src": "/assets/image13.jpg", "alt": "Image 13" }
 ]

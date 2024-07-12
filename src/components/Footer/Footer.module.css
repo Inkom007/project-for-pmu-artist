@@ -5,7 +5,7 @@
   padding-right: 20px;
   background-color: #a17d74;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,7 +14,39 @@
 }
 
 .linksContainer {
-  margin-top: 16px;
   display: flex;
+  align-items: flex-end;
   gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32;
+    padding-right: 32px;
+    gap: 30px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .linksContainer {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
 }
