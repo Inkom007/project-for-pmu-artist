@@ -3,7 +3,7 @@
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #f7dddf;
+  background-color: rgb(246, 241, 241);
 }
 
 .gallery {
@@ -18,13 +18,13 @@
 .title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Italianno", cursive;
-  color: #7c252e;
+
+  font-family: "Cormorant Garamond", serif;
+  color: #d7b47c;
   text-transform: uppercase;
   font-size: 26px;
-  font-weight: 700;
-  line-height: 1.4em;
-  letter-spacing: 5px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
 .button {
@@ -32,8 +32,8 @@
   display: block;
   margin: auto;
   border: none;
-  background-color: #f7dddf;
-  color: #7c252e;
+  background-color: rgb(246, 241, 241);
+  color: #d7b47c;
   font-family: "Italianno", cursive;
   font-size: 20px;
   text-transform: uppercase;

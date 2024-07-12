@@ -3,23 +3,14 @@
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #7c252e;
+  background-color: #a17d74;
+  display: flex;
+  gap: 20px;
 }
 
 .logo {
-  padding: 10px 0;
-  color: #daaaae;
-  font-family: "Italianno", cursive;
-  text-transform: uppercase;
-  font-size: 26px;
-  line-height: 1.17em;
-  letter-spacing: 0.06em;
-}
-
-.logoAccent {
-  color: #fff4f5;
-  font-size: 18px;
-  text-transform: uppercase;
+  width: 60px;
+  height: 60px;
 }
 
 .linksContainer {

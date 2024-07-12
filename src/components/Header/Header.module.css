@@ -1,8 +1,8 @@
 .header {
-  padding: 20px 0;
+  padding: 16px 0;
   width: 100%;
   position: fixed;
-  background-color: #fff4f5;
+  background-color: white;
 }
 
 .containerHeader {
@@ -13,20 +13,9 @@
   align-items: center;
 }
 
-.logo {
-  padding: 10px 0;
-  color: #c3646e;
-  font-family: "Italianno", cursive;
-  text-transform: uppercase;
-  font-size: 26px;
-  line-height: 1.17em;
-  letter-spacing: 0.06em;
-}
-
-.logoAccent {
-  color: #7c252e;
-  font-size: 18px;
-  text-transform: uppercase;
+.logoImg {
+  width: 60px;
+  height: 60px;
 }
 
 .navigation {
@@ -48,21 +37,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 32px 0;
-  }
-
   .containerHeader {
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  .logo {
-    font-size: 36px;
-  }
-
-  .logoAccent {
-    font-size: 30px;
+  .logoImg {
+    width: 80px;
+    height: 80px;
   }
 
   .openMenuBtn {
@@ -78,9 +60,9 @@
   }
 
   .link {
-    color: #7c252e;
-    font-family: "Italianno", cursive;
-    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+    color: #d7b47c;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0.5px;
@@ -88,4 +70,13 @@
 }
 
 @media screen and (min-width: 1120px) {
+  .logoImg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .link {
+    font-size: 32px;
+    font-weight: 400;
+  }
 }

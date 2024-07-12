@@ -11,7 +11,7 @@
 }
 
 .container {
-  background-color: #7c252e;
+  background-color: rgb(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
   width: 250px;
@@ -39,8 +39,10 @@
 }
 
 .link {
+  color: #d7b47c;
+  font-family: "Cormorant Garamond", serif;
   text-decoration: none;
-  color: #fff4f5;
-  font-size: 32px;
-  font-family: "Italianno", cursive;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }

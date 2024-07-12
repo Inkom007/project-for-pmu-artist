@@ -1,13 +1,14 @@
 import s from "./Header.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileMenu from "../MobileMenu/MobileMenu";
+import logo from "/assets/IMG_4080 2.jpg";
 
 const Header = ({ toggleModal, modalIsOpen }) => {
   return (
     <header className={s.header}>
       <div className={s.containerHeader}>
         <a className={s.logo}>
-          Yuliko.<span className={s.logoAccent}>pmu</span>
+          <img className={s.logoImg} src={logo} />
         </a>
         <nav className={s.navigation}>
           <ul className={s.list}>
@@ -29,7 +30,7 @@ const Header = ({ toggleModal, modalIsOpen }) => {
           </ul>
         </nav>
         <button onClick={toggleModal} className={s.openMenuBtn}>
-          <RxHamburgerMenu size={25} color="#7c252e" />
+          <RxHamburgerMenu size={25} color="#d7b47c" />
         </button>
         {modalIsOpen && <MobileMenu closeModal={toggleModal} />}
       </div>

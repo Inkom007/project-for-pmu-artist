@@ -1,5 +1,6 @@
 import s from "./Portfolio.module.css";
 import PortfolioItem from "../PortfolioItem/PortfolioItem";
+import { RiMoreLine } from "react-icons/ri";
 
 const Portfolio = ({ images, visible, loadMore }) => {
   return (
@@ -12,7 +13,7 @@ const Portfolio = ({ images, visible, loadMore }) => {
       </div>
       {visible < images.length && (
         <button className={s.button} onClick={loadMore}>
-          More...
+          <RiMoreLine size={40} color="#d7b47c" />
         </button>
       )}
     </div>

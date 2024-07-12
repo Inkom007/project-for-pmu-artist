@@ -6,7 +6,7 @@ const MobileMenu = ({ closeModal }) => {
     <div onClick={closeModal} className={s.mobileMenu}>
       <div className={s.container}>
         <button onClick={closeModal} className={s.closeBtn}>
-          <IoCloseOutline size={20} color=" #fff4f5" />
+          <IoCloseOutline size={20} color="#d7b47c" />
         </button>
         <ul className={s.list}>
           <li>
