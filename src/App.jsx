@@ -1,9 +1,8 @@
 import Header from "./components/Header/Header";
-import MobileMenu from "./components/MobileMenu/MobileMenu";
 import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Portfolio from "./components/Portfolio/Portfolio";
-import images from "./images.json";
+import images from "./images.js";
 import { useState } from "react";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";

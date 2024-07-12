@@ -1,7 +1,7 @@
 import s from "./Header.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import logo from "/assets/logo_header.jpg";
+import logo from "/src/assets/logo_header.jpg";
 
 const Header = ({ toggleModal, modalIsOpen }) => {
   return (

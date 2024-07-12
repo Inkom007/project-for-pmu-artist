@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { SiTelegram } from "react-icons/si";
 import { AiFillTikTok } from "react-icons/ai";
-import logo from "/assets/logo_footer.jpg";
+import logo from "/src/assets/logo_footer.jpg";
 
 const Footer = () => {
   return (
