@@ -1,16 +1,15 @@
+import image1 from "./assets/image1.jpg";
+import image2 from "./assets/image2.jpg";
+import image3 from "./assets/image3.jpg";
+import image4 from "./assets/image3.jpg";
+import image5 from "./assets/image5.jpg";
+
 const images = [
-  { src: "/src/assets/image1.jpg", alt: "image 1" },
-  { src: "/src/assets/image2.jpg", alt: "image 2" },
-  { src: "/src/assets/image3.jpg", alt: "image 3" },
-  { src: "/src/assets/image4.jpg", alt: "image 4" },
-  { src: "/src/assets/image5.jpg", alt: "image 5" },
-  { src: "/src/assets/image6.jpg", alt: "image 6" },
-  { src: "/src/assets/image7.jpg", alt: "image 7" },
-  { src: "/src/assets/image8.jpg", alt: "image 8" },
-  { src: "/src/assets/image9.jpg", alt: "image 9" },
-  { src: "/src/assets/image10.jpg", alt: "image 10" },
-  { src: "/src/assets/image11.jpg", alt: "image 11" },
-  { src: "/src/assets/image12.jpg", alt: "image 12" },
+  { src: image1, alt: "image 1" },
+  { src: image2, alt: "image 2" },
+  { src: image3, alt: "image 3" },
+  { src: image4, alt: "image 4" },
+  { src: image5, alt: "image 5" },
 ];
 
 export default images;
