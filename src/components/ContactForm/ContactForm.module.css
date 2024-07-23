@@ -1,26 +1,3 @@
-.container {
-  background-color: rgb(235, 229, 229);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.title {
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: "Cormorant Garamond", serif;
-  color: #d7b47c;
-  text-transform: uppercase;
-  font-size: 26px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
-
-.image {
-  display: none;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -39,13 +16,13 @@
 .inputName {
   height: 25px;
   border: 0.5px #d7b47c solid;
-  background-color: rgb(235, 229, 229);
+  background-color: rgba(255, 255, 255, 255);
   width: 200px;
 }
 
 .inputEmail {
   height: 25px;
-  background-color: rgb(235, 229, 229);
+  background-color: rgba(255, 255, 255, 255);
   border: 0.5px #d7b47c solid;
   width: 200px;
 }
@@ -53,7 +30,7 @@
 .textarea {
   height: 45px;
   border: 0.5px #d7b47c solid;
-  background-color: rgb(235, 229, 229);
+  background-color: rgba(255, 255, 255, 255);
   width: 200px;
 }
 
@@ -72,31 +49,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .wrapper {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-  }
-
-  .image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-  }
-
-  .title {
-    font-size: 30px;
-  }
-
   .label {
     font-size: 16px;
   }
@@ -124,13 +76,24 @@
 }
 
 @media screen and (min-width: 1120px) {
-  .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+  .label {
+    font-size: 18px;
   }
-  .title {
-    font-size: 32px;
+  .inputName {
+    height: 40px;
+    width: 350px;
+  }
+  .inputEmail {
+    height: 40px;
+    width: 350px;
+  }
+  .textarea {
+    height: 75px;
+    width: 350px;
+  }
+  .button {
+    width: 120px;
+    padding: 16px;
+    font-size: 22px;
   }
 }

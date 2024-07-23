@@ -15,13 +15,18 @@ const MobileMenu = ({ closeModal }) => {
             </a>
           </li>
           <li>
+            <a href="#Services" className={s.link}>
+              Services
+            </a>
+          </li>
+          <li>
             <a href="#Portfolio" className={s.link}>
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#ContactForm" className={s.link}>
-              Contact Form
+            <a href="#GetInTouch" className={s.link}>
+              Get in touch
             </a>
           </li>
         </ul>

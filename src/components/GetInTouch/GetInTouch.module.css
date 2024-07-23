@@ -1,20 +1,10 @@
 .container {
+  background-color: rgba(255, 255, 255, 255);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgb(235, 229, 229);
 }
-
-.gallery {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 .title {
   text-align: center;
   margin-bottom: 20px;
@@ -26,11 +16,11 @@
   letter-spacing: 0.5px;
 }
 
-.button {
-  display: block;
-  margin: auto;
-  border: none;
-  background-color: rgb(246, 241, 241);
+.img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,11 +31,12 @@
     padding-right: 32px;
   }
 
-  .gallery {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+  .wrapper {
+    display: flex;
+  }
+
+  .img {
+    max-width: 400px;
   }
   .title {
     font-size: 30px;
@@ -61,9 +52,5 @@
   }
   .title {
     font-size: 32px;
-  }
-
-  .gallery {
-    gap: 40px;
   }
 }
